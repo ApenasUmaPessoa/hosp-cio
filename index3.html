@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style3.css">
+    <script src="java3.js"></script>
+</head>
+<body>
+    <h1>Caixa</h1>
+    <div id="caixa">caixa</div>
+
+    <hr>
+
+    <h1>Painel de edição:</h1>
+
+    Texto:  <input type="text" id="text" value="caixa" maxlength="20">
+    
+    <br>
+    
+    Largura: <input type="range" id="largura" min="50" max="500" value="100">
+    
+    <br>
+    
+    Altura: <input type="range" id="altura" min="50" max="500" value="100">
+    
+    <br>
+    
+    Cor: <input type="color" id="cor" value="#ffffff">
+    
+    <br>
+
+    Borda:  <input type="range" id="radius" value="0">
+    
+    <br>
+
+    Contorno: 
+    <input type="number" id="grosso" min="1" max="20" value="0"> 
+    <select id="estilo">
+        <option value="solid">Normal</option>
+        <option value="dashed">Tracejada</option>
+        <option value="dotted">Pontilhada</option>
+        <option value="double">Dupla</option>
+    </select>
+    <input type="color" id="borcor" value="#000000">
+    <br>
+    <br>
+    <button onclick="mudarCoisas()">Alterar</button>
+ 
+</body>
+</html>
