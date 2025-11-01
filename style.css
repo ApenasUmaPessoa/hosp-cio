@@ -1,0 +1,28 @@
+body{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.card{
+    border: 2px solid black;
+    background-color: brown;
+    height: 300px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.img{
+    background-color: yellow;
+    height: 60%;
+}
+.txt{
+    background-color: green;
+    height: 40%;
+}
+
+#batata{
+    background-image:url("arceus.webp");
+    height: 100%px;
+    width: 50%;
+}
